@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Arial";
+    background-color: rgb(222, 222, 248);
+}
+.center{
+    text-align: center;
+}
+img{
+    width: 13%;
+}
+.min-font{
+    font-size: small;
+}
+.head-color{
+    color: rgb(0, 0, 194);
+    font-family: 300;
+}
+.mini-heading{
+    line-height: 3em;
+}
+.main-content{
+    padding: 0 5em;
+}
+.main-quote{
+    padding-top: 1.4em;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}

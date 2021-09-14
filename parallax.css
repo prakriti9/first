@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+.bgimg{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1575427689186-efe0738cbea0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fHRvd258ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .7;
+    background-attachment: fixed;
+
+}
+.h1{
+    letter-spacing: 0.2em;
+    background-color: rgb(15, 1, 1);
+    color: whitesmoke;
+    width: 14em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}  
+.light{
+    color: gray;
+}
+.center{
+    text-align: center;
+    padding-bottom: .3em;
+}
+.section{
+    padding: 4em 5em;
+    background-color: rgb(233, 227, 227);
+}
+.section p{
+    font-size: small;
+}
+.img-section{
+    width: 100%;
+    height: 50vh;
+    background-image: url("https://images.unsplash.com/photo-1528026076623-0803e7448217?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fHRvd258ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .7;
+    background-attachment: fixed;
+}
+.sub{
+    color: whitesmoke;
+    letter-spacing: .2em;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dark{
+    background-color: rgb(32, 31, 31);
+    color: whitesmoke;
+}
+.img-section2{
+    background-image: url("https://images.unsplash.com/photo-1523562457378-685782b382a6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHRvd258ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
+.footer-heading{
+    letter-spacing: 0.2em;
+    background-color: rgb(15, 1, 1);
+    color: whitesmoke;
+    width: 12em;
+    /* align-items: center; */
+}
+.bgimg2{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1575427689186-efe0738cbea0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fHRvd258ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .7;
+    background-attachment: fixed;
+    position: relative;
+}
+.main{
+   
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(227, 243, 191);
+        }
+        .container{
+            margin: 0;
+            /* width: 40%; */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            display: grid;
+        }
+        .contain{
+            margin: auto;
+        }
+        .container h1,h2{
+            text-align: center;
+            line-height: 2;
+            /* color:; */
+        }
+        button{
+            padding: .7em .7em;
+            border-radius: 7px;
+            border: none;
+            color: white;
+            font-size: medium;
+            font-family: sans-serif;
+            align-items: center;
+            margin: auto;
+        }
+        button:hover{
+            color: black;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let count = 0
+        function changes()
+        {
+            count = count + 1;
+            // if(count > 15)
+            // {
+            //     count = 15;
+            // }
+            document.getElementById("count").style.color = 'red';
+            document.getElementById("count").innerHTML = count;
+        }
+        function changes2()
+        {
+            count = count - 1;
+            if(count < 0)
+            {
+                count = 0;
+            }
+            document.getElementById("count").style.color = 'green';
+            document.getElementById("count").innerHTML = count;
+        }
+    </script>
+    <div class="container">
+        <h1>People Entered: </h1>
+        <h2 id="count">0</h2>
+      
+        <button style="background-color: rgb(230, 59, 59);" onclick="changes();">INCREMENT</button>
+        <br>
+        <button style="background-color: rgb(30, 151, 81);" onclick="changes2();">DECREMENT</button>
+    </div>
+</body>
+</html>
